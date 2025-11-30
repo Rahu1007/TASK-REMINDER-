@@ -39,7 +39,36 @@ npm install
 npm run dev
 ```
 
+
 4. Open your browser and navigate to `http://localhost:3000`
+
+### How to Upload to GitHub
+
+1. Initialize Git:
+```bash
+git init
+```
+
+2. Add files:
+```bash
+git add .
+```
+
+3. Commit changes:
+```bash
+git commit -m "Initial commit"
+```
+
+4. Connect to your repository (replace URL with yours):
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```
+
+5. Push to GitHub:
+```bash
+git branch -M main
+git push -u origin main
+```
 
 ## 📖 Usage
 
